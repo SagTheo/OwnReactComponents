@@ -1,0 +1,1 @@
+Components written from scratch that could be reused somewhere else

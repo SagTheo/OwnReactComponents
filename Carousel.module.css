@@ -1,0 +1,50 @@
+@keyframes fadeAway {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 30%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 30%;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.carouselImg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    animation: 300ms linear fadeIn;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.fadeAway {
+    opacity: 1;
+    animation: 300ms linear fadeAway;
+}
+
+.prevPic, .nextPic {
+    position: absolute;
+    top: 50vh;
+    cursor: pointer;
+}
+
+.prevPic {
+    left: 1rem;
+}
+
+.nextPic {
+    right: 1rem;
+}

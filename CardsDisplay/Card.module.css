@@ -1,0 +1,34 @@
+.cardContainer {
+    position: relative;
+}
+
+.cardImg {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0.5rem;
+    z-index: 0;
+}
+
+.cardLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.cardContainer:hover {
+    transform: scale(0.95);
+}
+
+.cardLink:hover {
+    color: white;
+}

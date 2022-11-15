@@ -1,0 +1,22 @@
+.cardsContainer {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-block: 3rem;
+}
+
+.cardsLeft {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.cardsRight {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.cardsLeftTop, .cardsRightBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
